@@ -2,6 +2,8 @@
 
 A full-stack music app built using React (frontend) and Node.js/Express with MariaDB (managed via phpMyAdmin) on the backend. This project demonstrates my ability to create, connect, and deploy both client- and server-side components of a dynamic web application.
 
+![alt text](image.png)
+
 ---
 
 ## 🚀 Features
