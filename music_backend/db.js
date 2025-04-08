@@ -1,10 +1,11 @@
 const mysql = require("mysql");
+require("dotenv").config();
 
 const db = mysql.createPool({
-  host: "webcourse.cs.nuim.ie", 
-  user: "p250128",   
-  password: "fi5Uzooh1toosohf",
-  database: "cs230_p250128", 
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME, 
 });
 
 module.exports = db;

@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.env
+
+# Backend
+/music_backend/node_modules
+/music_backend/.env
+
+# Frontend
+/music_frontend/node_modules
