@@ -25,13 +25,11 @@ A full-stack music app built using React (frontend) and Node.js/Express with Mar
 
 ---
 
-### ▶️ Running the Backend
+### ▶️ Running the Backend and Frontend
 
 ```bash
 cd music_backend
 node server.js
-
-### ▶️ Running the Frontend
 
 cd music_frontend
 npm install
